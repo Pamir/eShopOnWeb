@@ -38,4 +38,4 @@ steps:
 - task: PublishTestResults@2
   inputs:
     testResultsFormat: 'VSTest'
-    testResultsFiles: '**/test/-*.xml'
+    testResultsFiles: '**/test/*.xml'
